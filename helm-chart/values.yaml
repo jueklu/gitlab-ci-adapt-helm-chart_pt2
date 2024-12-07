@@ -1,0 +1,7 @@
+# Define the image details
+image:
+  repository: "gitlab-registry.jklug.work/python/flask-app-code/main"  # GitLab Registry; will be updated by the pipeline
+  tag: "latest"  # Tag placeholder; will be updated by the pipeline
+
+imagePullSecrets:
+  - gitlab-registry-secret  # The Kubernetes secret name
